@@ -1,10 +1,10 @@
-## Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)
+## Summary
 
-In this lesson we are doing a large refactor! We need to convert all our sign in, sign up and authentication persistence checks into sagas. We don't necessarily need to do this for our application, but this is a good way to practice writing sagas in a real world application that may not leverage firebase/firestore or the observer pattern.
+Project made with Redux, Hooks, Graphql, Firebase, Stripe and Heroku. Used for learning and polishing knowledges purposes.
 
 ## Install dependencies
 
-In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
+In your terminal after you clone your project down, remember to run either `yarn` to build all the dependencies in the project.
 
 ## Set your firebase config
 
@@ -70,19 +70,7 @@ You can then deploy to heroku by running:
 git push heroku master
 ```
 
-You will see this warning message if you are pushing to an existing app:
-
-```
-! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'https://git.heroku.com/hasura-crwn-clothing.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-```
-
-This is because we are pushing to an existing app that was deploying an entirely different repository from what we have now. Simply run:
+Simply run:
 
 ```
 git push heroku master --force
