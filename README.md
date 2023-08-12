@@ -1,12 +1,12 @@
 ## Summary
 
-Project made with Redux, Hooks, Graphql, Firebase, Stripe and Heroku. Used for learning and polishing knowledges purposes.
+E-commerce project made with Redux, Hooks, Graphql, Firebase, Stripe, and Heroku. Used for learning and polishing knowledge purposes.
 
 ## Install dependencies
 
-In your terminal after you clone your project down, remember to run either `yarn` to build all the dependencies in the project.
+In your terminal, after you clone your project down, remember to run either `yarn` to build all the dependencies in the project.
 
-## Set your firebase config
+## Set your Firebase config
 
 Remember to replace the `config` variable in your `firebase.utils.js` with your own config object from the firebase dashboard! Navigate to the project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
 
